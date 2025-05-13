@@ -1,3 +1,3 @@
 
-const prompt = prompt(text)
-console.log(prompt)
+const text = prompt()
+console.log(text)
