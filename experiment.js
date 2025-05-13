@@ -15,4 +15,4 @@ if (text === "tilde") {
     sara.hi();
 } else {
     console.log("Unknown name");
-}}
+}
