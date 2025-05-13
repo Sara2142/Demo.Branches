@@ -7,12 +7,32 @@ import * as sara from "./sara.js";
 const prompt = prompt(text)
 if (text === "tilde") {
     tilde.hello();
-} else if (text === "maja") {
-    maja.hello();
-} else if (text === "josefin") {
-    josefin.hello();
-} else if (text === "sara") {
-    sara.hi();
-} else {
-    console.log("Unknown name");
 }
+
+if (text === "maja") {
+    maja.hello();
+}
+
+if (text === "josefin") {
+    josefin.hello();
+}
+
+if (text === "sara") {
+    sara.Hi();
+}
+
+if (text === "tilde food") {
+    tilde.food();
+}
+
+if (text === "maja food") {
+    maja.food();
+}
+
+if (text === "josefin food") {
+    josefin.food();
+}
+
+if (text === "sara food") {
+    sara.food();
+} 
